@@ -11,7 +11,6 @@ if(!$con){
     echo'Connection error'. mysqli_connect_errno();
 }
 
-
 $loan_id = $_GET['loan_id'];
 $customer_id = $_GET['cust_id'];
 
